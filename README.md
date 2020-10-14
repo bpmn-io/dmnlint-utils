@@ -1,6 +1,6 @@
 # dmnlint-utils
 
-[![Build Status](https://travis-ci.org/bpmn-io/dmnlint-utils.svg?branch=master)](https://travis-ci.org/bpmn-io/dmnlint-utils)
+[![Build Status](https://travis-ci.com/bpmn-io/dmnlint-utils.svg?branch=master)](https://travis-ci.com/bpmn-io/dmnlint-utils)
 
 Utilities for creating dmnlint rules.
 
