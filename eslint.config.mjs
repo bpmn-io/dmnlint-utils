@@ -6,7 +6,6 @@ const files = {
     'coverage'
   ],
   build: [
-    '*.js',
     '*.mjs'
   ],
   lib: [
@@ -27,6 +26,14 @@ export default [
     ...config,
     files: files.build
   })),
+
+  // import attributes
+  {
+    files: files.build,
+    languageOptions: {
+      ecmaVersion: 'latest'
+    }
+  },
 
   // library (ES modules)
   ...bpmnIoPlugin.configs.recommended.map(config => ({
