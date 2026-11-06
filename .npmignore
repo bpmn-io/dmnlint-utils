@@ -1,8 +1,7 @@
 lib
 test
 !dist/*
-.eslintignore
-.eslintrc
+eslint.config.mjs
 .travis.yml
-rollup.config.js
+rollup.config.mjs
 yarn.lock
